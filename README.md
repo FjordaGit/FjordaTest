@@ -13,7 +13,7 @@ User clicks on the 3D cube and an animation of the cube plays. Once the user cli
 # Page 3 
 I show the list with text from https://jsonplaceholder.typicode.com/photos in a zoomable format while user swipes horizontaly. Snap functionality was also added into the horizontal list. 
 
-Note:
+# Note:
 1- I show only 20 items from the https://jsonplaceholder.typicode.com/photos but if we want to show more items or to show all items from API, we can change line 68 in VerticalScrollView.cs and line 115 in swipe.cs:
 
 Change:

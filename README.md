@@ -1,6 +1,6 @@
 # FjordaTest
  
- Unity Version Used: 2020.0.1f1
+ Unity Version Used: 2020.1.0f1
  
  The application has 3 pages and the user can click on the menu button at the bottom of the page to go through the pages. 
  
@@ -25,4 +25,4 @@ to either comment out or delete or change the number 20 to how many items we wan
 2- The code in Unity to retreive the image from https://jsonplaceholder.typicode.com/photos is correct but it the server itself shows a 403 error. A problem with nameserver or server of https://jsonplaceholder.typicode.com/photos. 
 
 # Requirements:
-None, just download Unity Version 2020.0.1f1
+None, just download Unity Version 2020.1.0f1

@@ -2,6 +2,10 @@
  
  Unity Version Used: 2020.1.0f1
  
+ # To run the Application
+ Go to folder scenes and then open Sc1. Under game resolution select (1080 x 1920). If you do not have this screen resolution, you can create it in the game window.
+ 
+ # Description
  The application has 3 pages and the user can click on the menu button at the bottom of the page to go through the pages. 
  
 # Page 1

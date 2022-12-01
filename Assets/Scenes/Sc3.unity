@@ -656,10 +656,10 @@ MonoBehaviour:
   UniformMotionComponentOfObjectMove: {fileID: 150006794}
   DisplacementOnOneSwipingAlongXAxis: 367.4411
   SpeedPer20Milliseconds: 12
-  StartingPositionOfObjectMove: {x: 0, y: 0, z: 0}
-  FurthestAbscissaMovingLeft: 0
-  FurthestAbscissaMovingRight: 0
-  RectTransformOfObjectToMove: {fileID: 794358622}
+  StartingPositionOfObjectMove: {x: 183.7205, y: -159.886, z: 0}
+  FurthestAbscissaMovingLeft: -3500
+  FurthestAbscissaMovingRight: 3500
+  RectTransformOfObjectToMove: {fileID: 150006790}
 --- !u!114 &794358626
 MonoBehaviour:
   m_ObjectHideFlags: 0

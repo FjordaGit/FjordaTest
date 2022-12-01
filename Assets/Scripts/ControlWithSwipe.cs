@@ -11,6 +11,7 @@ public class ControlWithSwipe : MonoBehaviour
     [SerializeField] private float FurthestAbscissaMovingRight;
     [SerializeField] private RectTransform RectTransformOfObjectToMove;
 
+
     private IEnumerator Start()
     {
         yield return new WaitForSeconds(0.5f);
@@ -20,8 +21,10 @@ public class ControlWithSwipe : MonoBehaviour
     public void ActionsWhenSwipeLeft()
     {
         float CurrentAbscissaAnchoredPosition = RectTransformOfObjectToMove.anchoredPosition.x;
+        
         if (CurrentAbscissaAnchoredPosition > FurthestAbscissaMovingLeft)
         {
+            
             UniformMotionComponentOfObjectMove.Move(-DisplacementOnOneSwipingAlongXAxis * Vector3.right, SpeedPer20Milliseconds);
         }
     }

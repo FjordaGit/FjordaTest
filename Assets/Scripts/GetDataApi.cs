@@ -11,7 +11,7 @@ public class GetDataApi : MonoBehaviour
 
     void Start()
     {
-        // Debug.Log(thumbnailUrl);
+        
         image = GetComponentInChildren<Image>();
 
 

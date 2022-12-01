@@ -46,7 +46,6 @@ public class VerticalScrollVeiw : MonoBehaviour
                 Debug.Log("Successfully download text");
 
                 var text = request.downloadHandler.text;
-                //Debug.Log(text);
                 text = "{\"data\":" + text + "}";
                 mDataList = JsonUtility.FromJson<DataList>(text);
 
@@ -66,7 +65,6 @@ public class VerticalScrollVeiw : MonoBehaviour
         int i = 0;
         foreach (Data data in mDataList.data)
         {
-            //Debug.Log(data.title);
             if (i >= 20) break;
 
             GameObject obj;
